@@ -1,0 +1,16 @@
+062ed24b81e2b7765f1a097db3b7566c *DESCRIPTION
+74cc2bac0dcabd7e9eab96372351dbcc *LICENSE
+7e57cfbf9220538b5a9e21fae7ebe36e *NAMESPACE
+1b6092f8394d6d49eacac149d2d99171 *R/adj_wald_ci.R
+9163dc3cdcd684f77b4e807e12a455a9 *R/benchmark_comparison.R
+55897857dded5982687a71e876143b5a *R/mean_ci.R
+1ad24f569f8a1ea05a742ef815da2e2f *R/mean_ci_2.R
+db26470d4c2aa22a3a86d3f865f21069 *R/task_completion.R
+8510b24a595f4872c3192f50a42d0717 *R/wald.R
+98966427f0ee139bd3736150e35579e0 *README.md
+f1f03334aea2b13cbae2987411454e26 *man/adj_wald_ci.Rd
+8a1021981ed4bfc6d6cc315d738e2a75 *man/benchmark_comparison.Rd
+84a27331ee0b51f1b646c4d106c65fd9 *man/mean_ci.Rd
+4a356850ea6e10fe85f7e697458cd448 *man/mean_ci_2.Rd
+8106a898435de100c717ec325c261f52 *man/task_completion.Rd
+f63ef0f7d84d131dab6f1de0f52be1b1 *man/wald_ci.Rd

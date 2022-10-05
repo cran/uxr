@@ -1,0 +1,27 @@
+
+#' Wald Confidence Intervals
+#'
+#' @param success success
+#' @param total total
+#' @param ci_z z value
+#'
+#' @return lower_ci, upper_ci
+#' @export
+#' @examples
+#' wald_ci(10, 12, 1.96)
+#' wald_ci(5, 7, 1.96)
+
+wald_ci <- function(success, total, ci_z) {
+
+  p <- success/total
+
+  value <- ci_z*(sqrt((p*(1-p)/total)))
+
+  lower_ci <- p - value
+  upper_ci <- p + value
+
+  list(lower_ci = lower_ci,
+       upper_ci = upper_ci)
+
+}
+
